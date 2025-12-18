@@ -31,17 +31,20 @@ Here's a quick look at the important files and folders:
 
 ```text
 gdg-portfolio/
-├── public/              # Static assets
+├── public/                # Static assets
 ├── src/
-│   ├── assets/          # Images and icons
-│   ├── components/      # Reusable React components
-│   ├── styles/          # CSS files
-│   ├── App.jsx          # Main application component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── index.html           # HTML entry point
-├── package.json         # Project dependencies and scripts
-└── vite.config.js       # Vite configuration
+│   ├── assets/            # Images and icons
+│   ├── components/        # Reusable React components
+│   ├── styles/            # CSS files
+│   ├── App.css            # App-specific styles
+│   ├── App.jsx            # Main application component
+│   ├── index.css          # Global styles
+│   └── main.jsx           # Entry point
+├── index.html             # HTML entry point
+├── package.json           # Project dependencies and scripts
+├── vite.config.js         # Vite configuration
+├── eslint.config.js       # ESLint configuration
+└── README.md              # Project documentation
 ```
 
 ## 🤝 Contributing & Learning
